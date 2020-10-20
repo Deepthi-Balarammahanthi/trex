@@ -85,9 +85,10 @@ function setup() {
 function draw() {
   //trex.debug = true;
   background(backgroundImg);
+  
   textSize(20);
   fill("black")
-  text("Score: "+ score,30,50);
+  text("trex Score:  "+ score,30,50);
   
   
   if (gameState===PLAY){
